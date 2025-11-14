@@ -1,7 +1,7 @@
 <h1>Verisionshantering i Git</h1>
-## En kort introduktion till hur versionshantering går till i Git
+En kort introduktion till hur versionshantering går till i Git
 <html>
-<h1>Vad är Git?</h1>
+<h2>Vad är Git?</h2>
 
   <body> 
     
