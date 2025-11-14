@@ -29,7 +29,7 @@ En kort introduktion till hur versionshantering går till i Git
     I detta steg sparar ni ändringarna som en verision genom kommandot "commit" och namnger det genom "--message "Lämplig text"", sedan skapar ni nya ändringer och sparar det som en verision. Lämpligt att ni använder er av "git status" efter varje kommando för att se vad som ändrats.
     <ol>
 <li><code style="color : red">git commit --message "Skapat index.html"</code></li>
-<li>Redigera din index.html fil genom att exempelvis lägga till en head:<code style="color : red">"<head>...</head>"</code></li>
+<li>Redigera din index.html fil genom att exempelvis lägga till eller ta bort text.
 <li>Skriv:<code style="color : red">git add index.html</code></li>
 <li><code style="color : red">git commit --message "Lagt till HEAD"</code></li>
     </ol> 
