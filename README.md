@@ -29,7 +29,7 @@ En kort introduktion till hur versionshantering går till i Git
     I detta steg sparar ni ändringarna som en verision genom kommandot "commit" och namnger det genom "--message "Lämplig text"", sedan skapar ni nya ändringer och sparar det som en verision. Lämpligt att ni använder er av "git status" efter varje kommando för att se vad som ändrats.
     <ol>
 <li><code style="color : red">git commit --message "Skapat index.html"</code></li>
-<li>Redigera din index.html fil genom att exempelvis lägga till en head:<code style="color : red">"<head></head>head></code></li>
+<li>Redigera din index.html fil genom att exempelvis lägga till en head:<code style="color : red">"<head>...</head>"</code></li>
 <li>Skriv:<code style="color : red">git add index.html</code></li>
 <li><code style="color : red">git commit --message "Lagt till HEAD"</code></li>
     </ol> 
@@ -56,15 +56,15 @@ En kort introduktion till hur versionshantering går till i Git
   <p>
     I stycket används den hash till den verision som önskas återgå till, antingen hela hash eller de fem första tecknen. Git sänder en respons tillbaka och öppnas filen är den som den tidigare verisionen. Kommandot checkout innebär ett byte.
    <ol>
-<li><code style="color : red">git checkout <hash> index.html</code></li>
+<li><code style="color : red">git checkout "hash" index.html</code></li>
     </ol> 
   </p>
     
-  <h2>Återståälla senaste verision</h2>
+  <h2>Återställa senaste verision</h2>
   <p>
     Använd "git log", notera att den senaste hash är den senaste verisionen, följt av checkout och önskad hash. Öppnas filen bör verisionen vara återställd. 
    <ol>
-<li><code style="color : red">git checkout <senaste hash> index.html</code></li>
+<li><code style="color : red">git checkout "senaste hash" index.html</code></li>
     </ol> 
   </p>
   </body>
